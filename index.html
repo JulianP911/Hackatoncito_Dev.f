@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Link to Font Awesome CDN - Contenet Delivery Network-->
+    <script defer src="https://pro.fontawesome.com/releases/v5.10.0/js/all.js" integrity="sha384-G/ZR3ntz68JZrH4pfPJyRbjW+c0+ojii5f+GYiYwldYU69A+Ejat6yIfLSxljXxD" crossorigin="anonymous"></script>
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    
+    <!--Conection to the file style.css-->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Indecidibles</title>
+</head>
+<body>
+    <!--Barra de navegación de la pagina web Indecidibles-->
+    <section>
+        <div class="container-fluid bg-primary fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary container margin">
+            <!--Logo con el nombre del sitio web-->
+            <img src="./assets/imgs/logo_Indecidibles.png" alt="Logo" width="30" height="30" class="d-inline-block align-top mr-2"> 
+            <a class="navbar-brand" href="#">Indecidibles</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--Opciones disponibles en la barra de navegación-->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Testimonio</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">
+                    Productos
+                  </a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">¿Quienes somos?</a>
+                </li>
+                <li>
+                    <div><a href="#formulario" class="btn btn-danger">Contacto</a></div>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+    </section>
+
+    <!--Contenedor del carusel de fotos principales y barra vertical con las redes sociales con sus repectivos hipervinculos-->
+    <section>
+        <div class="container fotos">
+            <div class="row">
+              <!--Parte del carusel con una columna de tamaño de 9-->
+                <div class="col-9">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="./assets/imgs/image_1.png" class="d-block w-100" alt="Fundadoras">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./assets/imgs/image_2.png" class="d-block w-100" alt="Venta">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./assets/imgs/image_3.png" class="d-block w-100" alt="Logo">
+                          </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Next</span>
+                        </a>
+                      </div>
+                </div>
+                <!--Parte de las cartas con las redes sociales con diferentes colores-->
+                <div class="col-3">
+                    <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+                        <a href="https://www.facebook.com/indecidibles.ec" class="text-white p1"><div class="card-header text-center">Facebook</div></a>
+                        <div class="card-body text-center">
+                            <i class="fab fa-facebook-square fa-7x"></i>
+                        </div>
+                       </div>
+                       <div class="card text-white cuadrado2 mb-3" style="max-width: 18rem;">
+                        <a href="https://www.instagram.com/indecidibles" class="text-white p1"><div class="card-header text-center">Instagram</div></a>
+                        <div class="card-body text-center">
+                            <i class="fab fa-instagram fa-7x"></i>
+                        </div>
+                       </div>
+                       <div class="card text-white cuadrado1 mb-3" style="max-width: 18rem;">
+                        <a href="https://twitter.com/indecidibles" class="text-white p1"><div class="card-header text-center">Twitter</div></a>
+                        <div class="card-body text-center">
+                            <i class="fab fa-twitter fa-7x"></i>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Contenedor de la informacion mas importante de la pagina web que todo usuario que entre necesita saber-->
+    <section>
+        <div class="container mt-5">
+            <div class="row">
+                <!--Columna con tamaño de 4 para la violencia intrafamiliar-->
+                <div class="col-4">
+                    <h4 class="text-center font-weight-bolder texto1">¿Qué es Violencia Intrafamiliar?</h4>
+                    <p class="text-justify">Como violencia intrafamiliar se denomina el tipo de violencia que ocurre entre miembros de una familia, y que puede tener lugar en el entorno doméstico o fuera de él.En este sentido, la violencia intrafamiliar se registra cuando se producen situaciones de abuso o maltrato entre personas emparentadas, bien por consanguinidad, bien por afinidad.
+                    <br>
+                    <br>
+                    Como tal, podemos decir que se ha producido un episodio de violencia doméstica cuando se han ocasionado daños a la integridad emocional, psicológica o física de una persona.</p>
+                </div>
+                <!--Columna con tamaño de 4 para acerca de nosotros-->
+                <div class="col-4">
+                    <h4 class="text-justify font-weight-bolder">Acerca de nosotros</h4>
+                    <p class="text-justify">Consumo responsable de artículos de empoderamiento femenino. Las ganancias están destinadas a organizaciones y activistas que pelean por la equidad de género. Diseños personalizados ENVÍOS A TODO EL PAÍS
+                    <br>
+                    <br>
+                    ¿Conoces alguna mujer que se encuentre en situación de violencias de género?‬
+                    <br>
+                    <br>
+                    ¡Apóyala! Recuerda que muchas mujeres cohabitan con su agresor‬ y les es difícil comunicarse
+                    Continuamos creando acciones entre la Red Nacional de Refugios A.C. y Facebook en pro de los #DDHH‬
+                    <br>
+                    <br>
+                    ¡Juntas somos más fuertes!</p>
+                </div>
+                <!--Columna con tamaño de 4 para estadisticas-->
+                <div class="col-4">
+                    <h4 class="text-justify font-weight-bolder">Estadisticas</h4>
+                    <p class="text-justify">Mencionó que en el primer trimestre de 2019, el número de denuncias por estos delitos fue de 52,253, es decir, 21.84% del total anual.
+                    <br> 
+                    <p class="text-justify">La organización mencionó que en el mes de marzo del 2019 se presentaron 19,258 denuncias por el grupo de delitos contra las familias, mientras que en marzo del 2020 asciende a 23,214 casos, cifra que se ubica por arriba de la más alta registrada para el año 2019, que se registró en mayo, con 22,772 denuncias.
+                    </p>
+                    <p class="text-justify">Esto significa que en marzo de este año se tiene un registro 2% superior en el número de denuncias por delitos contra la familia, respecto del mes más violento del año pasado”, planteó.</p>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Contenedor del formulario para obtener mas informacion o para denunciar violencia intrafamiliar-->
+    <section>
+        <div class="container d-flex justify-content-center mt-5 flex-column">
+            <h2 class="text-center">No tengan miedo, Contactanos</h2>
+            <form class="mt-3 formulario" id="formulario">
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label for="inputEmail4">Nombre</label>
+                    <input type="text" class="form-control" id="inputEmail4" placeholder="Nombre">
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="inputPassword4">Apellido</label>
+                    <input type="text" class="form-control" id="inputPassword4" placeholder="Apellido">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="inputAddress">Email</label>
+                  <input type="email" class="form-control" id="inputAddress" placeholder="Email">
+                </div>
+                <div class="form-group">
+                  <label for="inputAddress2">Verificacion Email</label>
+                  <input type="text" class="form-control" id="inputAddress2" placeholder="Verificacion Email">
+                </div>
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label for="inputCity">Ciudad</label>
+                    <input type="text" class="form-control" id="ciudad">
+                  </div>
+                  <div class="form-group col-md-4">
+                    <label for="inputState">Estado</label>
+                    <select id="inputState" class="form-control">
+                      <option selected>Escoger...</option>
+                      <option>...</option>
+                    </select>
+                  </div>
+                  <div class="form-group col-md-2">
+                    <label for="inputZip">Zip</label>
+                    <input type="text" class="form-control" id="inputZip">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                      Acepta terminos y condiciones de Indecidibles
+                    </label>
+                  </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+              </form>
+        </div>
+    </section>
+
+    <!--Pie de pagina con la informacion de copyright y el grupo desarrollador de este template-->
+    <footer>
+        <div class="container text-center pie">
+            <hr class="divisor mt-4">
+            <h3>© Derechos de autor. Contenido disponible bajo licencia.</h3>
+            <h4>Developers Latam Golden Project</h4>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>

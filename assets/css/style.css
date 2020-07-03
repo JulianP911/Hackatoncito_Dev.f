@@ -1,0 +1,52 @@
+/* Estilo personalizado para el carusel de fotos con un margin de 100px */
+.fotos{
+    margin-top: 100px;
+}
+
+/* Estilo personalizado para los titulos de cajas con las redes sociales con un tamaño de 20px */
+.p1{
+    font-size: 20px;
+}
+
+/* Estilo personalizado de la etiqueta body con la funcion scroll para poder avanzar en la pantalla */
+body{
+    overflow: scroll;
+}
+
+/* Estilo personalizado del formulario para obtener los datos de los usuarios que presentan violencia intrafamiliar con padding de 20px y un border de color purpula de 3px */
+.formulario{
+    padding: 20px;
+    border: 3px solid purple;
+}
+
+/* Estilo personalizado de la etiqueta body para colocar un fondo, ancho automatico y una altura de 500px */
+body{
+    background: url("Background.png");
+    width: auto;
+    height: 500px;
+}
+
+/* Estilo personalizado del divisor para separar el contenido principal del pie de pagina */
+.divisor{
+    border: 2px solid purple;
+}
+
+/* Estilo personalizado del pie de pagina con un padding-booton de 25px */
+.pie{
+    padding-bottom: 25px;
+}
+
+/* Estilo personalizado del texto1 para que el titulo quede centrado */
+.texto1{
+    text-align: center;
+}
+
+/* Estilo personalizado del cuadrado1 el cual contiene la informacion de la red social twitter con un fondo de color purpura */
+.cuadrado1{
+    background: purple;
+}
+
+/* Estilo personalizado del cuadrado2 el cual contiene la informacion de la red social instagram con un fondo definido por rgb */
+.cuadrado2{
+    background: rgb(40, 97, 172);
+}
